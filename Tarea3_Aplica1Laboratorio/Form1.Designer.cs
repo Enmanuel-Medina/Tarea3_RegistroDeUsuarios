@@ -206,12 +206,10 @@ namespace Tarea3_Aplica1Laboratorio
             // BuscarButton
             // 
             this.BuscarButton.Image = ((System.Drawing.Image)(resources.GetObject("BuscarButton.Image")));
-            this.BuscarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BuscarButton.Location = new System.Drawing.Point(304, 34);
+            this.BuscarButton.Location = new System.Drawing.Point(296, 35);
             this.BuscarButton.Name = "BuscarButton";
-            this.BuscarButton.Size = new System.Drawing.Size(128, 41);
+            this.BuscarButton.Size = new System.Drawing.Size(95, 57);
             this.BuscarButton.TabIndex = 36;
-            this.BuscarButton.Text = "Buscar";
             this.BuscarButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BuscarButton.UseVisualStyleBackColor = true;
             this.BuscarButton.Click += new System.EventHandler(this.BuscarButton_Click);
@@ -220,9 +218,9 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             this.NuevoButton.Image = ((System.Drawing.Image)(resources.GetObject("NuevoButton.Image")));
             this.NuevoButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.NuevoButton.Location = new System.Drawing.Point(204, 342);
+            this.NuevoButton.Location = new System.Drawing.Point(204, 335);
             this.NuevoButton.Name = "NuevoButton";
-            this.NuevoButton.Size = new System.Drawing.Size(115, 58);
+            this.NuevoButton.Size = new System.Drawing.Size(115, 75);
             this.NuevoButton.TabIndex = 37;
             this.NuevoButton.Text = "Nuevo";
             this.NuevoButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -233,9 +231,9 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             this.GuardarButton.Image = ((System.Drawing.Image)(resources.GetObject("GuardarButton.Image")));
             this.GuardarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.GuardarButton.Location = new System.Drawing.Point(350, 342);
+            this.GuardarButton.Location = new System.Drawing.Point(350, 335);
             this.GuardarButton.Name = "GuardarButton";
-            this.GuardarButton.Size = new System.Drawing.Size(126, 58);
+            this.GuardarButton.Size = new System.Drawing.Size(126, 75);
             this.GuardarButton.TabIndex = 38;
             this.GuardarButton.Text = "Guardar";
             this.GuardarButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -246,9 +244,9 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             this.EliminarButton.Image = ((System.Drawing.Image)(resources.GetObject("EliminarButton.Image")));
             this.EliminarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.EliminarButton.Location = new System.Drawing.Point(492, 342);
+            this.EliminarButton.Location = new System.Drawing.Point(497, 335);
             this.EliminarButton.Name = "EliminarButton";
-            this.EliminarButton.Size = new System.Drawing.Size(120, 58);
+            this.EliminarButton.Size = new System.Drawing.Size(121, 75);
             this.EliminarButton.TabIndex = 39;
             this.EliminarButton.Text = "Eliminar";
             this.EliminarButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -263,6 +261,7 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(828, 454);
             this.Controls.Add(this.EliminarButton);
             this.Controls.Add(this.GuardarButton);
@@ -285,8 +284,9 @@ namespace Tarea3_Aplica1Laboratorio
             this.Controls.Add(this.label6);
             this.Controls.Add(this.IdNumericUpDown);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Registro de Usuarios";
             ((System.ComponentModel.ISupportInitialize)(this.IdNumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MyErrorProvider)).EndInit();
             this.ResumeLayout(false);

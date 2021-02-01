@@ -83,6 +83,16 @@ namespace Tarea3_Aplica1Laboratorio.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Buscar1 {
+            get {
+                object obj = ResourceManager.GetObject("Buscar1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Guardar {
             get {
                 object obj = ResourceManager.GetObject("Guardar", resourceCulture);
@@ -96,6 +106,16 @@ namespace Tarea3_Aplica1Laboratorio.Properties {
         internal static System.Drawing.Bitmap Nuevo {
             get {
                 object obj = ResourceManager.GetObject("Nuevo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nuevo1 {
+            get {
+                object obj = ResourceManager.GetObject("Nuevo1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
