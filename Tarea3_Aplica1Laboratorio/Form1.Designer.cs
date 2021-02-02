@@ -188,7 +188,7 @@ namespace Tarea3_Aplica1Laboratorio
             "Profesor",
             "Conserje",
             "Visitante"});
-            this.comboBox1.Location = new System.Drawing.Point(613, 97);
+            this.comboBox1.Location = new System.Drawing.Point(600, 96);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(151, 28);
             this.comboBox1.TabIndex = 34;
