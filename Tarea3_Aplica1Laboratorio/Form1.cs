@@ -143,6 +143,8 @@ namespace Tarea3_Aplica1Laboratorio
                 MessageBox.Show("No se puede eliminar el usuario que no existe", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        
     }
     }
 

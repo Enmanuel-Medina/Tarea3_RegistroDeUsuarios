@@ -76,7 +76,7 @@ namespace Tarea3_Aplica1Laboratorio
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(45, 97);
+            this.label6.Location = new System.Drawing.Point(45, 104);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(44, 20);
             this.label6.TabIndex = 11;
@@ -151,7 +151,7 @@ namespace Tarea3_Aplica1Laboratorio
             this.ClaveTextBox.Location = new System.Drawing.Point(131, 237);
             this.ClaveTextBox.Name = "ClaveTextBox";
             this.ClaveTextBox.PasswordChar = '*';
-            this.ClaveTextBox.Size = new System.Drawing.Size(188, 27);
+            this.ClaveTextBox.Size = new System.Drawing.Size(213, 27);
             this.ClaveTextBox.TabIndex = 30;
             // 
             // label7
@@ -206,9 +206,9 @@ namespace Tarea3_Aplica1Laboratorio
             // BuscarButton
             // 
             this.BuscarButton.Image = ((System.Drawing.Image)(resources.GetObject("BuscarButton.Image")));
-            this.BuscarButton.Location = new System.Drawing.Point(296, 35);
+            this.BuscarButton.Location = new System.Drawing.Point(287, 43);
             this.BuscarButton.Name = "BuscarButton";
-            this.BuscarButton.Size = new System.Drawing.Size(95, 57);
+            this.BuscarButton.Size = new System.Drawing.Size(79, 35);
             this.BuscarButton.TabIndex = 36;
             this.BuscarButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BuscarButton.UseVisualStyleBackColor = true;
@@ -218,7 +218,7 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             this.NuevoButton.Image = ((System.Drawing.Image)(resources.GetObject("NuevoButton.Image")));
             this.NuevoButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.NuevoButton.Location = new System.Drawing.Point(204, 335);
+            this.NuevoButton.Location = new System.Drawing.Point(166, 303);
             this.NuevoButton.Name = "NuevoButton";
             this.NuevoButton.Size = new System.Drawing.Size(115, 75);
             this.NuevoButton.TabIndex = 37;
@@ -231,7 +231,7 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             this.GuardarButton.Image = ((System.Drawing.Image)(resources.GetObject("GuardarButton.Image")));
             this.GuardarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.GuardarButton.Location = new System.Drawing.Point(350, 335);
+            this.GuardarButton.Location = new System.Drawing.Point(316, 303);
             this.GuardarButton.Name = "GuardarButton";
             this.GuardarButton.Size = new System.Drawing.Size(126, 75);
             this.GuardarButton.TabIndex = 38;
@@ -244,7 +244,7 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             this.EliminarButton.Image = ((System.Drawing.Image)(resources.GetObject("EliminarButton.Image")));
             this.EliminarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.EliminarButton.Location = new System.Drawing.Point(497, 335);
+            this.EliminarButton.Location = new System.Drawing.Point(473, 303);
             this.EliminarButton.Name = "EliminarButton";
             this.EliminarButton.Size = new System.Drawing.Size(121, 75);
             this.EliminarButton.TabIndex = 39;
@@ -262,7 +262,7 @@ namespace Tarea3_Aplica1Laboratorio
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(828, 454);
+            this.ClientSize = new System.Drawing.Size(814, 397);
             this.Controls.Add(this.EliminarButton);
             this.Controls.Add(this.GuardarButton);
             this.Controls.Add(this.NuevoButton);
@@ -285,6 +285,7 @@ namespace Tarea3_Aplica1Laboratorio
             this.Controls.Add(this.IdNumericUpDown);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Registro de Usuarios";
             ((System.ComponentModel.ISupportInitialize)(this.IdNumericUpDown)).EndInit();
