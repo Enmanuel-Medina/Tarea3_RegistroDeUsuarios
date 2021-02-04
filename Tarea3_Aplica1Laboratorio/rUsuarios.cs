@@ -12,9 +12,9 @@ using Tarea3_Aplica1Laboratorio.Entidades;
 
 namespace Tarea3_Aplica1Laboratorio
 {
-    public partial class Form1 : Form
+    public partial class rUsuarios : Form
     {
-        public Form1()
+        public rUsuarios()
         {
             InitializeComponent();
         }

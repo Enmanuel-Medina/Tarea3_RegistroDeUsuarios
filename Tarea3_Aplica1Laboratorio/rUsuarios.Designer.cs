@@ -1,7 +1,7 @@
 ﻿
 namespace Tarea3_Aplica1Laboratorio
 {
-    partial class Form1
+    partial class rUsuarios
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,7 +30,7 @@ namespace Tarea3_Aplica1Laboratorio
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rUsuarios));
             this.label1 = new System.Windows.Forms.Label();
             this.IdNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
