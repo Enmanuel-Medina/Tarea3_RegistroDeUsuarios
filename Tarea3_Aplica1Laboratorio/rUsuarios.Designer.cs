@@ -33,8 +33,6 @@ namespace Tarea3_Aplica1Laboratorio
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rUsuarios));
             this.label1 = new System.Windows.Forms.Label();
             this.IdNumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.label6 = new System.Windows.Forms.Label();
-            this.RolIdTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.AliasTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -53,6 +51,8 @@ namespace Tarea3_Aplica1Laboratorio
             this.GuardarButton = new System.Windows.Forms.Button();
             this.EliminarButton = new System.Windows.Forms.Button();
             this.MyErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.IdNumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MyErrorProvider)).BeginInit();
             this.SuspendLayout();
@@ -73,26 +73,10 @@ namespace Tarea3_Aplica1Laboratorio
             this.IdNumericUpDown.Size = new System.Drawing.Size(150, 27);
             this.IdNumericUpDown.TabIndex = 3;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(45, 104);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 20);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "RolId";
-            // 
-            // RolIdTextBox
-            // 
-            this.RolIdTextBox.Location = new System.Drawing.Point(131, 97);
-            this.RolIdTextBox.Name = "RolIdTextBox";
-            this.RolIdTextBox.Size = new System.Drawing.Size(150, 27);
-            this.RolIdTextBox.TabIndex = 22;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(45, 152);
+            this.label2.Location = new System.Drawing.Point(45, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 20);
             this.label2.TabIndex = 23;
@@ -100,15 +84,15 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             // AliasTextBox
             // 
-            this.AliasTextBox.Location = new System.Drawing.Point(131, 145);
+            this.AliasTextBox.Location = new System.Drawing.Point(107, 114);
             this.AliasTextBox.Name = "AliasTextBox";
-            this.AliasTextBox.Size = new System.Drawing.Size(213, 27);
+            this.AliasTextBox.Size = new System.Drawing.Size(301, 27);
             this.AliasTextBox.TabIndex = 24;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(31, 188);
+            this.label3.Location = new System.Drawing.Point(31, 172);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 20);
             this.label3.TabIndex = 25;
@@ -116,7 +100,7 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             // NombreTextBox
             // 
-            this.NombreTextBox.Location = new System.Drawing.Point(131, 185);
+            this.NombreTextBox.Location = new System.Drawing.Point(107, 169);
             this.NombreTextBox.Name = "NombreTextBox";
             this.NombreTextBox.Size = new System.Drawing.Size(301, 27);
             this.NombreTextBox.TabIndex = 26;
@@ -124,7 +108,7 @@ namespace Tarea3_Aplica1Laboratorio
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(452, 195);
+            this.label5.Location = new System.Drawing.Point(447, 176);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 20);
             this.label5.TabIndex = 27;
@@ -132,15 +116,15 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             // EmailTextBox
             // 
-            this.EmailTextBox.Location = new System.Drawing.Point(510, 188);
+            this.EmailTextBox.Location = new System.Drawing.Point(509, 176);
             this.EmailTextBox.Name = "EmailTextBox";
-            this.EmailTextBox.Size = new System.Drawing.Size(278, 27);
+            this.EmailTextBox.Size = new System.Drawing.Size(392, 27);
             this.EmailTextBox.TabIndex = 28;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(41, 240);
+            this.label4.Location = new System.Drawing.Point(41, 237);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 20);
             this.label4.TabIndex = 29;
@@ -148,7 +132,7 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             // ClaveTextBox
             // 
-            this.ClaveTextBox.Location = new System.Drawing.Point(131, 237);
+            this.ClaveTextBox.Location = new System.Drawing.Point(107, 230);
             this.ClaveTextBox.Name = "ClaveTextBox";
             this.ClaveTextBox.PasswordChar = '*';
             this.ClaveTextBox.Size = new System.Drawing.Size(213, 27);
@@ -157,7 +141,7 @@ namespace Tarea3_Aplica1Laboratorio
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(406, 244);
+            this.label7.Location = new System.Drawing.Point(641, 237);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(121, 20);
             this.label7.TabIndex = 31;
@@ -166,7 +150,7 @@ namespace Tarea3_Aplica1Laboratorio
             // FechaTimePicker
             // 
             this.FechaTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.FechaTimePicker.Location = new System.Drawing.Point(533, 235);
+            this.FechaTimePicker.Location = new System.Drawing.Point(768, 237);
             this.FechaTimePicker.Name = "FechaTimePicker";
             this.FechaTimePicker.Size = new System.Drawing.Size(148, 27);
             this.FechaTimePicker.TabIndex = 32;
@@ -174,7 +158,7 @@ namespace Tarea3_Aplica1Laboratorio
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(563, 97);
+            this.label8.Location = new System.Drawing.Point(712, 100);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(31, 20);
             this.label8.TabIndex = 33;
@@ -188,7 +172,7 @@ namespace Tarea3_Aplica1Laboratorio
             "Profesor",
             "Conserje",
             "Visitante"});
-            this.comboBox1.Location = new System.Drawing.Point(600, 96);
+            this.comboBox1.Location = new System.Drawing.Point(750, 97);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(151, 28);
             this.comboBox1.TabIndex = 34;
@@ -196,7 +180,7 @@ namespace Tarea3_Aplica1Laboratorio
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(670, 48);
+            this.checkBox1.Location = new System.Drawing.Point(817, 48);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(73, 24);
             this.checkBox1.TabIndex = 35;
@@ -218,7 +202,7 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             this.NuevoButton.Image = ((System.Drawing.Image)(resources.GetObject("NuevoButton.Image")));
             this.NuevoButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.NuevoButton.Location = new System.Drawing.Point(166, 303);
+            this.NuevoButton.Location = new System.Drawing.Point(205, 303);
             this.NuevoButton.Name = "NuevoButton";
             this.NuevoButton.Size = new System.Drawing.Size(115, 75);
             this.NuevoButton.TabIndex = 37;
@@ -231,7 +215,7 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             this.GuardarButton.Image = ((System.Drawing.Image)(resources.GetObject("GuardarButton.Image")));
             this.GuardarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.GuardarButton.Location = new System.Drawing.Point(316, 303);
+            this.GuardarButton.Location = new System.Drawing.Point(377, 303);
             this.GuardarButton.Name = "GuardarButton";
             this.GuardarButton.Size = new System.Drawing.Size(126, 75);
             this.GuardarButton.TabIndex = 38;
@@ -244,7 +228,7 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             this.EliminarButton.Image = ((System.Drawing.Image)(resources.GetObject("EliminarButton.Image")));
             this.EliminarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.EliminarButton.Location = new System.Drawing.Point(473, 303);
+            this.EliminarButton.Location = new System.Drawing.Point(574, 303);
             this.EliminarButton.Name = "EliminarButton";
             this.EliminarButton.Size = new System.Drawing.Size(121, 75);
             this.EliminarButton.TabIndex = 39;
@@ -257,12 +241,31 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             this.MyErrorProvider.ContainerControl = this;
             // 
-            // Form1
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(326, 233);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(115, 20);
+            this.label6.TabIndex = 40;
+            this.label6.Text = "Confirmar Clave";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(447, 230);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '*';
+            this.textBox1.Size = new System.Drawing.Size(188, 27);
+            this.textBox1.TabIndex = 41;
+            // 
+            // rUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(814, 397);
+            this.ClientSize = new System.Drawing.Size(935, 390);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.EliminarButton);
             this.Controls.Add(this.GuardarButton);
             this.Controls.Add(this.NuevoButton);
@@ -280,13 +283,11 @@ namespace Tarea3_Aplica1Laboratorio
             this.Controls.Add(this.label3);
             this.Controls.Add(this.AliasTextBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.RolIdTextBox);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.IdNumericUpDown);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "rUsuarios";
             this.Text = "Registro de Usuarios";
             ((System.ComponentModel.ISupportInitialize)(this.IdNumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MyErrorProvider)).EndInit();
@@ -299,8 +300,6 @@ namespace Tarea3_Aplica1Laboratorio
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.NumericUpDown IdNumericUpDown;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox RolIdTextBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox AliasTextBox;
         private System.Windows.Forms.Label label3;
@@ -319,6 +318,8 @@ namespace Tarea3_Aplica1Laboratorio
         private System.Windows.Forms.Button GuardarButton;
         private System.Windows.Forms.Button EliminarButton;
         private System.Windows.Forms.ErrorProvider MyErrorProvider;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label6;
     }
 }
 

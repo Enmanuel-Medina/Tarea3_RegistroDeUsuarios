@@ -25,7 +25,6 @@ namespace Tarea3_Aplica1Laboratorio
             AliasTextBox.Text = String.Empty;
             NombreTextBox.Text = String.Empty;
             EmailTextBox.Text = String.Empty;
-            RolIdTextBox.Text = String.Empty;
             ClaveTextBox.Text = String.Empty;
             FechaTimePicker.Value = DateTime.Now;
 
@@ -38,7 +37,6 @@ namespace Tarea3_Aplica1Laboratorio
             usuario.Alias = AliasTextBox.Text;
             usuario.Nombre = NombreTextBox.Text;
             usuario.Email = EmailTextBox.Text;
-            usuario.RolId = RolIdTextBox.Text;
             usuario.Clave = ClaveTextBox.Text;
             usuario.FechaIgreso = FechaTimePicker.Value;
             return usuario;
@@ -49,7 +47,7 @@ namespace Tarea3_Aplica1Laboratorio
             AliasTextBox.Text = usuario.Alias;
             NombreTextBox.Text = usuario.Nombre;
             EmailTextBox.Text = usuario.Email;
-            RolIdTextBox.Text = usuario.RolId;
+         
             ClaveTextBox.Text = usuario.Clave;
             FechaTimePicker.Value = usuario.FechaIgreso;
 
