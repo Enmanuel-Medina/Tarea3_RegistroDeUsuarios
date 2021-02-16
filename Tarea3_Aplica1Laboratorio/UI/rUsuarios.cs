@@ -107,7 +107,7 @@ namespace Tarea3_Aplica1Laboratorio
             {
                 if (!ExisteEnLaBaseDeDatos())
                 {
-                    MessageBox.Show("No se puede modificar un usuario que no existe", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("No se puede modificar un usuario ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
                 paso = UsuarioBLL.Modificar(roles);
