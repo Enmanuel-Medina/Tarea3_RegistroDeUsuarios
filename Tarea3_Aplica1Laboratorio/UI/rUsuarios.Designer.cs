@@ -191,9 +191,9 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             this.BuscarButton.Image = ((System.Drawing.Image)(resources.GetObject("BuscarButton.Image")));
             this.BuscarButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BuscarButton.Location = new System.Drawing.Point(297, 39);
+            this.BuscarButton.Location = new System.Drawing.Point(300, 38);
             this.BuscarButton.Name = "BuscarButton";
-            this.BuscarButton.Size = new System.Drawing.Size(56, 43);
+            this.BuscarButton.Size = new System.Drawing.Size(64, 37);
             this.BuscarButton.TabIndex = 36;
             this.BuscarButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BuscarButton.UseVisualStyleBackColor = true;
