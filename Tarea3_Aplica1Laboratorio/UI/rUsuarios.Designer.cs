@@ -205,10 +205,10 @@ namespace Tarea3_Aplica1Laboratorio
             this.NuevoButton.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.NuevoButton.Location = new System.Drawing.Point(326, 303);
             this.NuevoButton.Name = "NuevoButton";
-            this.NuevoButton.Size = new System.Drawing.Size(98, 59);
+            this.NuevoButton.Size = new System.Drawing.Size(98, 41);
             this.NuevoButton.TabIndex = 37;
             this.NuevoButton.Text = "Nuevo";
-            this.NuevoButton.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.NuevoButton.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.NuevoButton.UseVisualStyleBackColor = true;
             this.NuevoButton.Click += new System.EventHandler(this.NuevoButton_Click);
             // 
@@ -216,12 +216,12 @@ namespace Tarea3_Aplica1Laboratorio
             // 
             this.GuardarButton.Image = ((System.Drawing.Image)(resources.GetObject("GuardarButton.Image")));
             this.GuardarButton.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.GuardarButton.Location = new System.Drawing.Point(568, 303);
+            this.GuardarButton.Location = new System.Drawing.Point(570, 303);
             this.GuardarButton.Name = "GuardarButton";
-            this.GuardarButton.Size = new System.Drawing.Size(98, 59);
+            this.GuardarButton.Size = new System.Drawing.Size(89, 41);
             this.GuardarButton.TabIndex = 38;
             this.GuardarButton.Text = "Guardar";
-            this.GuardarButton.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.GuardarButton.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.GuardarButton.UseVisualStyleBackColor = true;
             this.GuardarButton.Click += new System.EventHandler(this.GuardarButton_Click);
             // 
@@ -231,10 +231,10 @@ namespace Tarea3_Aplica1Laboratorio
             this.EliminarButton.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.EliminarButton.Location = new System.Drawing.Point(447, 303);
             this.EliminarButton.Name = "EliminarButton";
-            this.EliminarButton.Size = new System.Drawing.Size(98, 59);
+            this.EliminarButton.Size = new System.Drawing.Size(102, 41);
             this.EliminarButton.TabIndex = 39;
             this.EliminarButton.Text = "Eliminar";
-            this.EliminarButton.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.EliminarButton.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.EliminarButton.UseVisualStyleBackColor = true;
             this.EliminarButton.Click += new System.EventHandler(this.EliminarButton_Click);
             // 
