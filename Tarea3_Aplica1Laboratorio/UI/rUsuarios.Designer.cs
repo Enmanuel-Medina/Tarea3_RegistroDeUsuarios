@@ -218,10 +218,10 @@ namespace Tarea3_Aplica1Laboratorio
             this.GuardarButton.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.GuardarButton.Location = new System.Drawing.Point(570, 303);
             this.GuardarButton.Name = "GuardarButton";
-            this.GuardarButton.Size = new System.Drawing.Size(89, 41);
+            this.GuardarButton.Size = new System.Drawing.Size(101, 41);
             this.GuardarButton.TabIndex = 38;
             this.GuardarButton.Text = "Guardar";
-            this.GuardarButton.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.GuardarButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.GuardarButton.UseVisualStyleBackColor = true;
             this.GuardarButton.Click += new System.EventHandler(this.GuardarButton_Click);
             // 
